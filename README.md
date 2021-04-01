@@ -6,9 +6,9 @@ V =float(0)
 S =float(0)
  
 if a <= 0 or b <= 0 or c <= 0 or a + b <= c or a + c <= b or b + c <= a:
-    print('Invalid triangle')
+    print('Invalid values')
 else:
    V = a * b * c;
-  	printf("V  = %d\n", V);
+  	print('v = ' + str(P))
   	S = 2*(a*c + b*c);
-  	printf("S  = %d\n", S);
+    print('S = ' + str(S))
